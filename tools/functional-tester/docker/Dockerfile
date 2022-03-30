@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.15.3
 RUN apk update 
 RUN apk add -v iptables sudo
 ADD bin/etcd-agent /
